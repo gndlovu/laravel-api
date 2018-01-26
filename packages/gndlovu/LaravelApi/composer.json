@@ -1,0 +1,17 @@
+{
+  "name": "gndlovu/LaravelApi",
+  "description": "Task Management API based in Laravel 5.4 framework",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Gladwell Ndlovu",
+      "email": "gladwell_n@live.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "gndlovu\\LaravelApi\\": "src/"
+    }
+  }
+}
