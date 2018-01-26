@@ -10,17 +10,13 @@ You'll then need to run `composer install` or `composer update` to download it a
 
 ## Configuration
 
+Provide database credentials in .env file
+
 You need to run migrations to create tasks table
 
 ```bash
 php artisan migrate"
 ```
-
-Rename aravel-api/.env.example to aravel-api/.env
-Provide values for:
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
 
 Then you are ready to get running. Just visit 
 
